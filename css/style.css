@@ -96,6 +96,7 @@ a:hover{
 .tp_innerdiv{
     background-color:#153E5Ca8;
     margin: 3rem 0.01rem 7rem 1rem;
+    transition: flex 0.1s linear;
 }
 
 .service-margin{
@@ -141,7 +142,7 @@ a:hover{
 
 .res-img{
     background-image: url("../img/Residential-cleaning.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .ourServices{
@@ -151,42 +152,44 @@ a:hover{
 .res-hover{
     position: absolute;
     top: 0rem;
+    right: 0;
     z-index: -1;
 }
 
+
 .commercial-img{
     background-image: url("../img/commercial.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .plumbing-img{
     background-image: url("../img/plumbing.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .electrical-img{
     background-image: url("../img/electrical.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .sewage-img{
     background-image: url("../img/sewage.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .security-img{
     background-image: url("../img/security.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .painting-img{
     background-image: url("../img/painting.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .furniture-img{
     background-image: url("../img/furniture.jpg");
-    width: 99.1vw;
+    width: 100vw;
 }
 
 .grp-img{
@@ -252,4 +255,11 @@ a:hover{
 
 .content{
     line-height: 185%;
+}
+
+/* expand on hover */
+
+.tp_innerdiv:hover{
+    flex: 0 0 44%;
+    max-width: 44%;
 }
